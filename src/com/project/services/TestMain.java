@@ -9,6 +9,7 @@ public class TestMain {
 public static void main(String[] args) throws SQLException, IOException {
 	UserLogin userLogin=new UserLogin();
 	userLogin.getUserLogin();
+	System.out.println("----------------------------");
 	
 
 }
