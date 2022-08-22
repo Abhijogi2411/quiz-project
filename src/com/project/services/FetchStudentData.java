@@ -24,7 +24,7 @@ public class FetchStudentData implements FetchData {
 			ResultSet resultSet=preparedStatement.executeQuery();
 			//System.out.println("Reg_id\t\t Name\t\t\t\t\t\t Score\t\t ");
 			System.out.printf("%10s %20s %10s","REG ID","NAME","SCORE"+"\n");
-			System.out.println("-------------------------------------------------------------------------");
+			System.out.println("--------------------------------------------------------------------");
 			ArrayList<StudentData> arrayList = new ArrayList<StudentData>();
 			while(resultSet.next()) {
 			
